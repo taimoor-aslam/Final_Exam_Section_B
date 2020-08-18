@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "330363375575",
+    "firebase_url": "https://final-exam-section-b.firebaseio.com",
+    "project_id": "final-exam-section-b",
+    "storage_bucket": "final-exam-section-b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330363375575:android:9ff7ce8c750df863694592",
+        "android_client_info": {
+          "package_name": "com.example.finalexamsectionb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330363375575-b4g6tl5e4k57r03r21trchth6m2mmr0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCIrNtQ4kllHV7_Jfv_5mEKug2S-r74I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330363375575-b4g6tl5e4k57r03r21trchth6m2mmr0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

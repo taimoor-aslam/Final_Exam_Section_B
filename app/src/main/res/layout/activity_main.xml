@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/emaailedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:hint="Enter E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passcodeedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        app:layout_constraintTop_toBottomOf="@+id/emaailedt" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:layout_margin="40dp"
+        android:background="@drawable/rounded_widget"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passcodeedt" />
+
+    <TextView
+        android:id="@+id/singuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For signup "
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="click here..."
+        android:id="@+id/txt"
+        android:textColor="#50c878"
+        app:layout_constraintTop_toBottomOf="@id/loginbtn"
+        app:layout_constraintLeft_toRightOf="@+id/singuptxt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showttxt1"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
